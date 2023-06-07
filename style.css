@@ -1,0 +1,144 @@
+form{
+    display: grid;
+}
+.buttons {
+    margin-top: 4%;
+    width: 100%;
+}
+.login {
+    width: 50%;
+    border: 1px solid gray;
+    padding: 30px 15px;
+    border-radius: 5px;
+    box-shadow: 1px 4px 15px -4px rgba(0,0,0,0.75);
+}
+.loginContainer {
+    display: grid;
+    place-items: center;
+    margin-top: 2%;
+}
+legend {
+    font-family: sans-serif;
+}
+input {
+    margin-top: 3%;
+    height: 50px;
+    border: none;
+    border-bottom: 1px solid gray;
+    padding: 2%;
+}
+input:focus {
+    outline: none;
+}
+.registerContainer {
+    display: grid;
+    place-items: center;
+    margin-top: 2%;
+}
+.register {
+    width: 60%;
+    border: 1px solid gray;
+    padding: 30px 15px;
+    border-radius: 5px;
+    box-shadow: 1px 4px 15px -4px rgba(0,0,0,0.75);
+}
+.createPost {
+    display: grid;
+    place-items: center;
+    margin-top: 2%;
+}
+.create {
+    margin-top: 2%;
+    width: 70%;
+}
+.createCont {
+    width: 50%;
+    height: 70px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    box-shadow: 1px 4px 15px -4px rgba(0,0,0,0.75);
+    margin-top: 1%;
+}
+.register legend {
+    color: gray;
+}
+#regBtn {
+    width: 30%;
+    margin-top: 2%;
+}
+.loginPage {
+    text-decoration: none;
+    color: orange;
+}
+.return {
+    margin-top: 2%;
+}
+.navbar-nav h5 {
+    color: white;
+    margin-top: 3%;
+}
+.navbar-nav {
+    position: absolute;
+    right: 0;
+}
+.links {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+}
+.links h5 {
+    color: white;
+}
+#content {
+    border: none;
+    border-bottom: 1px solid black;
+}
+.create h4 {
+    color: gray;
+    font-family: sans-serif;
+}
+.create label {
+    color: gray;
+}
+#title {
+    margin-bottom: 2%;
+    margin-top: 0%;
+}
+#posts {
+    display: grid;
+    place-items: center;
+    margin-top: 1%;
+}
+.posts {
+    width: 50%;
+    height: 200px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    box-shadow: 1px 4px 15px -4px rgba(0,0,0,0.75);
+    margin-top: 1%;
+    padding: 10px;
+}
+.create h4 {
+    color: gray;
+    font-family: sans-serif;
+}
+.create input {
+    border: none;
+    border-bottom: 2px solid gray;
+}
+.create textarea {
+    border: none;
+    border-bottom: 2px solid gray;
+}
+.create textarea:focus {
+    outline: none;
+}
+.create button {
+    margin-top: 0.6%;
+}
+.create label {
+    margin-top: 3%;
+}
+#post {
+    width: 120px;
+}
